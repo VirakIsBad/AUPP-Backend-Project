@@ -1,0 +1,285 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: linear-gradient(to bottom right, #313283, #444e87);
+}
+
+.menu-top {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+}
+
+.name-top {
+  padding: 20px 20px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.about {
+  padding: 50px 90px;
+  background: url(Media/world\ background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.service-area {
+  position: relative;
+  overflow: auto;
+}
+
+.bg-serviceA {
+  background: url(Media/traffic\ law.jpg);
+  height: 900px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  -webkit-filter: brightness(50%);
+}
+
+.service-box {
+  padding: 50px 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.testimonial {
+  position: relative;
+}
+
+.testimonial-bg {
+  background: url(Media/testimonial.jpg);
+  height: 900px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  -webkit-filter: brightness(50%);
+}
+
+.testimonial-show {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.contact {
+  position: relative;
+}
+
+.contact-bg {
+  background: url(Media/new\ thumbnail.png);
+  height: 1100px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  -webkit-filter: brightness(50%);
+}
+
+.row1 {
+  font-size:medium;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.location {
+  text-align: center;
+}
+
+.youtube {
+  position: relative;
+}
+
+.youtube-bg {
+  background: url(Media/winwin.png);
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  opacity: 0.5;
+}
+
+.youtubeframe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+	transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.btn {
+  background-color: #d8b45c;
+  border-color: #d8b45c;
+}
+
+.navbar {
+    padding: 20px 20px;
+    margin-bottom: 0;  
+    background: linear-gradient(to bottom right, #313283, #444e87);
+    border-color:#313283;
+    z-index: 9999;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    color: #FFFFFF !important; 
+  }
+
+  .navbar li a, .navbar .navbar-brand {
+    color: #FFFFFF !important;
+  }
+
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #364A9A !important;
+  }
+
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #364A9A !important;
+  }
+
+.sc-gradient {
+        font-weight: bold; 
+        background: linear-gradient(to bottom right, #0D2BCB, #87CEEB);
+        line-height: 150%;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        font-size: 45px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+    
+    
+.paragraphdesign {
+  line-height: 150%;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-size: 25px;
+  -webkit-background-clip: text;
+}
+
+
+.botnav {
+        overflow: hidden;
+        text-align: center;
+
+}
+
+.footer {
+  width: 100%;
+  line-height: 30px;
+  height: 500px;
+  padding: 50px 50px;
+  background: linear-gradient(to bottom right, #313283, #444e87);
+  font-size: 15px;
+  color: #ffff;
+}
+
+.navigation-bot{
+  position: relative;
+  bottom: 10px;
+  padding: 50px 50px;
+}
+
+.info-bot {
+  font-size: 20px;
+}
+
+.botnav a {
+        position: center;
+        color: #fff;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+}
+
+.botnav a:hover {
+            background-color: #364A9A;
+            color: #fff;
+}
+
+.botnav a.active {
+            background-color: #4CAF50;
+            color: white;
+}
+
+.item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+  }
+
+  .item span {
+    font-style: normal;
+  }
+  
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+
+.applynow {
+  padding: 50px 90px;
+  background: url(Media/world\ background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.apply1 {
+  height: 600px;
+}
+
+#ex
+{
+  display: inline-block;
+  padding:20px;
+  line-height: 40px;
+}
